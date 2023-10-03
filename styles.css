@@ -1,0 +1,110 @@
+:root {
+	font-size: 16px;
+	font-family: 'Open Sans';
+	--text-primary: #b6b6b6;
+	--text-secondary: #ececec;
+	--big-primary: #23232e;
+	--big-secondary: #141418;
+	--side-one: #FF6666;
+	--side-two: #CCCCCC;
+}
+
+main {
+	margin-left: 5rem;
+	padding: 1rem;
+	background-color: var(--big-primary);
+}
+
+.navbar {
+	width: 5rem;
+	height: 100vh;
+	position: fixed;
+	background: linear-gradient(
+		20deg,
+		var(--side-one) 0%,
+		var(--side-one) 50%,
+		var(--side-two) 50%,
+		var(--side-two) 90%
+	);
+	transition: width 200ms ease;
+}
+
+.navbar-nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+}
+
+.nav-item {
+	width: 100%s;
+}
+
+.nav-link {
+	display: flex;
+	align-text: center;
+	height: 5rem;
+	color: var(--text-primary);
+	text-decoration: none;
+}
+
+.navbar:hover {
+	width: 16rem;
+}
+
+.navbar:hover .link-text {
+	display: block;
+}
+
+.link-text {
+	color: black;
+	justify-content: space-evenly;
+}
+
+.link-text:hover {
+	color: #FFFFFF;
+}
+
+body {
+	color: black;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+body::-webkit-scrollbar {
+	width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+	background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #FF6666;
+}
+
+div { 
+	background: url("img/Background-images-For-Websites.jpeg"); 
+	background-size: absolute; 
+	height: 1000px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-size: 17.5px;
+	font-display: bold;
+	color: black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+   * {
+scroll-behavior: smooth;
+   }
+}
