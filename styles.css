@@ -88,7 +88,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 div { 
-	background: url("img/Background-images-For-Websites.jpeg"); 
+	background: url("img/Background-Images-For-Websites.jpeg"); 
 	background-size: absolute; 
 	height: 1000px;
 }
