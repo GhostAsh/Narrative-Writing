@@ -3,10 +3,10 @@
 	font-family: 'Open Sans';
 	--text-primary: #b6b6b6;
 	--text-secondary: #ececec;
-	--big-primary: #23232e;
+	--big-primary: ghostwhite;
 	--big-secondary: #141418;
-	--side-one: #FF6666;
-	--side-two: #CCCCCC;
+	--side-one: #66CCFF;
+	--side-two: #99FFFF;
 }
 
 main {
@@ -80,17 +80,18 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	background: #1e1e24;
+	background: #003333;
 }
 
 body::-webkit-scrollbar-thumb {
-	background: #FF6666;
+	background: #99FFFF;
 }
 
 div { 
-	background: url("img/Background-Images-For-Websites.jpeg"); 
+	background: url("img/Third-Image.jpg"); 
 	background-size: absolute; 
-	height: 1000px;
+	height: 1679px;
+	width: 5000;
 }
 
 h1 {
@@ -100,7 +101,7 @@ h1 {
 p {
 	font-size: 17.5px;
 	font-display: bold;
-	color: black;
+	color: Black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
